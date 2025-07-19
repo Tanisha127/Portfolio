@@ -21,7 +21,7 @@ const Projects = () => {
       image:
         "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8",
       tags: ["Kotlin", "XML","Java"],
-      code: "https://github.com/oxBinaryBrain/An_Income_Tax_Fraud_Detection_Using_AI-ML",
+      code: "https://github.com/Tanisha127/IGDTUWResources",
       category: "",
     },
     {
@@ -32,7 +32,7 @@ const Projects = () => {
       image:
         "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8",
       tags: ["HTML", "CSS"],
-      code: "https://github.com/oxBinaryBrain/Oral_Cancer_Classification",
+      code: "https://github.com/Tanisha127/Spotify_Clone",
       category: "",
     },
   ];

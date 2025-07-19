@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import Layout from "@/components/Layout";
 import { motion } from "framer-motion";
 import { AnimatedText } from "@/components/AnimatedText";
+import profileImg from "@/assets/me.jpeg";
 
 const About = () => {
   useEffect(() => {
@@ -55,7 +56,7 @@ const About = () => {
                 <div className="relative w-full h-80 rounded-lg mb-8 overflow-hidden">
                   <div className="absolute inset-0 bg-gradient-to-br from-brand-purple/20 to-blue-500/20"></div>
                   <img 
-                    src="/uploads/me.jpeg" 
+                    src={profileImg}  
                     alt="Profile" 
                     className="w-full h-full object-cover rounded-lg"
                   />
@@ -80,7 +81,7 @@ const About = () => {
                   >Tanisha</motion.span>, a Computer Science student at Indira Gandhi Delhi Technical University for Women (IGDTUW), Delhi.
                 </p>
                 <p>
-                  My journey in programming began with an interest in solving complex problems. This led me to explore various programming languages and technologies, with a focus on web development and artificial intelligence.
+                  My journey in programming began with an interest in solving complex problems. This led me to explore various programming languages and technologies, with a focus on web development.
                 </p>
                 <p>
                   I'm passionate about building web applications and software that is not only functional but also intuitive and user-friendly. I believe in continuous learning and staying updated with the latest technologies.
