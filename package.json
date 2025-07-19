@@ -3,6 +3,7 @@
   "private": true,
   "author": "Tanisha",
   "version": "0.0.0",
+  "homepage": "https://Tanisha127.github.io/Portfolio",
   "type": "module",
   "scripts": {
   "dev": "vite",

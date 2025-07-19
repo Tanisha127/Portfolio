@@ -9,7 +9,7 @@ const PrintableResume = () => {
     const link = document.createElement("a");
     
     // Set the href to the resume PDF in the public folder
-    link.href = "/resume.pdf";
+    link.href = "/Portfolio/resume.pdf";
     
     // Set the download attribute to suggest a filename
     link.download = "resume.pdf";
