@@ -1,26 +1,17 @@
-
 import React from "react";
 import { motion } from "framer-motion";
 import { Download } from "lucide-react";
 
+// Access resume URL from Vite environment variable
+const resumeUrl = import.meta.env.VITE_RESUME_URL || "/Portfolio/resume.pdf";
+
 const PrintableResume = () => {
   const handleDownload = () => {
-    // Create a link element
     const link = document.createElement("a");
-    
-    // Set the href to the resume PDF in the public folder
-    link.href = "/Portfolio/resume.pdf";
-    
-    // Set the download attribute to suggest a filename
+    link.href = resumeUrl;
     link.download = "resume.pdf";
-    
-    // Append the link to the document
     document.body.appendChild(link);
-    
-    // Trigger the click event
     link.click();
-    
-    // Remove the link from the document
     document.body.removeChild(link);
   };
 
